@@ -29,9 +29,9 @@ function heartFill(index) {
 const App = () => {
 
   const page = {
-    title: 'Destination',
+    title: 'Destinations',
     breadcrumb: [
-      { name: 'DESTINATION', path: '/destination' },
+      { name: 'DESTINATIONS', path: '/destinations' },
     ],
   };
 
@@ -68,7 +68,7 @@ const App = () => {
             {destinationgrid.map((tour, index) => (
               <div key={index} className="w-full ">
                 <div className="group relative h-full border-2 border-gray-200 border-opacity-60 rounded-2xl overflow-hidden hover:border-none hover:shadow-lg transition-all duration-200">
-                  <a href="#">
+                  <a href={tour.url}>
                     <img className="lg:h-56 md:h-36 w-full object-cover object-center group-hover:scale-105 duration-700 ease-in-out" src={tour.image} alt={tour.location} />
                   </a>
                   <span className="px-2 py-1 bg-orange-50 rounded-full absolute top-4 left-4">

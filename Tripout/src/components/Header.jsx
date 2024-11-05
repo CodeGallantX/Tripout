@@ -12,12 +12,12 @@ const Header = () => {
     return (
         <div>
             <header className="absolute w-full z-30 bg-transparent flex items-center justify-between px-6 md:px-10 xl:px-44 py-6">
-                <Logo/>
+                <Logo />
 
                 {/* Desktop Navigation */}
                 <nav className="hidden lg:flex items-center gap-8 text-sm font-medium ">
                     <Link to="/">Home</Link>
-                    <a href="#about">About Us</a>
+                    <Link to="/about">About Us</Link>
                     <Link to="/destinations">Destinations</Link>
                     <Link to="/blog">Blog</Link>
                     <Link to="/contact">Contact Us</Link>
@@ -40,16 +40,16 @@ const Header = () => {
                 </div>
 
                 <button onClick={toggleSidebar} className="lg:hidden ">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
-                <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
-                </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
+                    </svg>
                 </button>
 
                 {/* Sidebar for Mobile */}
                 <div
                     className={`lg:hidden block fixed inset-y-0 right-0 z-40 w-full bg-black opacity-50 transform ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'
                         } transition-transform duration-300 ease-in-out`}
-                        onClick={toggleSidebar}
+                    onClick={toggleSidebar}
                 ></div>
                 <div
                     className={`lg:hidden block fixed inset-y-0 right-0 z-40 w-64 bg-[#24201D] transform ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'
@@ -62,7 +62,7 @@ const Header = () => {
                     </button>
                     <nav className="flex flex-col items-start px-6 pt-20 text-white space-y-6 text-lg">
                         <Link to="/" onClick={toggleSidebar}>Home</Link>
-                        <a href="#about" onClick={toggleSidebar}>About Us</a>
+                        <Link to="#about" onClick={toggleSidebar}>About Us</Link>
                         <Link to="destinations" onClick={toggleSidebar}>Destinations</Link>
                         <Link to="blog" onClick={toggleSidebar}>Blog</Link>
                         <Link to="contact" onClick={toggleSidebar}>Contact Us</Link>
