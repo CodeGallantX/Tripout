@@ -1,6 +1,7 @@
 import destinationgrid from '../data/destinationgrid.json';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
+import Pagination from '../components/Pagination';
 import Footer from '../components/Footer';
 
 
@@ -41,10 +42,10 @@ const App = () => {
       <section className='px-6 md:px-10 xl:px-44 py-28'>
         <div className='flex flex-row items-center justify-between p-3 bg-orange-50 rounded-xl'>
           <div className="flex flex-row gap-2">
-          <a href="#" className="border border-[#f7921e] bg-[#f7921e] rounded-lg p-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="fill-white" viewBox="0 0 256 256">
-            <path d="M104,40H56A16,16,0,0,0,40,56v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,104,40Zm0,64H56V56h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,64H152V56h48v48Zm-96,32H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm0,64H56V152h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Zm0,64H152V152h48v48Z"></path>
-            </svg>
+            <a href="#" className="border border-[#f7921e] bg-[#f7921e] rounded-lg p-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="fill-white" viewBox="0 0 256 256">
+                <path d="M104,40H56A16,16,0,0,0,40,56v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,104,40Zm0,64H56V56h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,64H152V56h48v48Zm-96,32H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm0,64H56V152h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Zm0,64H152V152h48v48Z"></path>
+              </svg>
             </a>
             <a href="#" className="border border-gray-600 rounded-lg p-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="fill-gray-600" viewBox="0 0 256 256">
@@ -120,6 +121,7 @@ const App = () => {
           </div>
         </div>
       </section>
+      <Pagination />
       <Footer />
 
     </div>
