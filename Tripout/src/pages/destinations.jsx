@@ -54,7 +54,7 @@ const App = () => {
             </a>
           </div>
           <div>
-            <select name="Sorting" id="sortingDropdown" className="px-2 w-64 font-medium text-sm py-2 outline-none rounded-lg border border-gray-500 text-gray-500">
+            <select name="Sorting" id="sortingDropdown" className="px-2 w-48 sm:w-52 md:w-64 font-medium text-sm py-2 outline-none rounded-lg border border-gray-500 text-gray-500">
               <option value="">Default Sorting</option>
               <option value="location">Sort by Location</option>
               <option value="price">Sort by Price</option>
