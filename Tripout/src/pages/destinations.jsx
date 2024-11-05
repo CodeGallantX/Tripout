@@ -30,7 +30,7 @@ const App = () => {
   const page = {
     title: 'Destination',
     breadcrumb: [
-      { name: 'Destination', path: '/destination' },
+      { name: 'DESTINATION', path: '/destination' },
     ],
   };
 
@@ -38,14 +38,22 @@ const App = () => {
     <div>
       <Header />
       <Banner page={page} />
-      <section className='px-6 md:px-10 xl:px-44 py-40'>
+      <section className='px-6 md:px-10 xl:px-44 py-28'>
         <div className='flex flex-row items-center justify-between p-3 bg-orange-50 rounded-xl'>
-          <div className="flex flex-row gap-4">
-            <a href="#">Icon grid</a>
-            <a href="#">Icon content</a>
+          <div className="flex flex-row gap-2">
+          <a href="#" className="border border-[#f7921e] bg-[#f7921e] rounded-lg p-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="fill-white" viewBox="0 0 256 256">
+            <path d="M104,40H56A16,16,0,0,0,40,56v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,104,40Zm0,64H56V56h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,64H152V56h48v48Zm-96,32H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm0,64H56V152h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Zm0,64H152V152h48v48Z"></path>
+            </svg>
+            </a>
+            <a href="#" className="border border-gray-600 rounded-lg p-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="fill-gray-600" viewBox="0 0 256 256">
+                <path d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"></path>
+              </svg>
+            </a>
           </div>
           <div>
-            <select name="Sorting" id="sortingDropdown" className="px-2 w-64 font-medium text-sm py-1 outline-none rounded-lg border border-gray-500 text-gray-500">
+            <select name="Sorting" id="sortingDropdown" className="px-2 w-64 font-medium text-sm py-2 outline-none rounded-lg border border-gray-500 text-gray-500">
               <option value="">Default Sorting</option>
               <option value="location">Sort by Location</option>
               <option value="price">Sort by Price</option>

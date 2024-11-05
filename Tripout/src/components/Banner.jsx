@@ -3,17 +3,21 @@ import { Link } from 'react-router-dom';
 
 const Banner = ({ page }) => {
   return (
-    <div className="relative bg-orange-50 w-full h-[320px] flex flex-col justify-center items-center px-6 md:px-10 xl:px-44">
-      <div className="absolute bg-[#e6e1d1] w-[250px] h-[100px] bottom-0 left-1/2 -translate-x-1/2"></div>
-      <div className="z-10 mt-10 ">
+    <div className="relative bg-orange-50 w-full h-[350px] flex flex-col justify-center items-center px-6 md:px-10 xl:px-44">
+      <img src="/banner.png" className=" object-cover w-full"/>
+      <div className="absolute z-10 mt-10 left-1/2 -translate-x-1/2 ">
         <h2 className="text-5xl md:text-7xl font-semibold mb-4 font-serif">{page.title}</h2>
 
         <nav aria-label="breadcrumb" className="text-sm text-[#F7921E] flex flex-row items-center justify-center">
-          <ol className="list-reset flex space-x-2 font-semibold">
+          <ol className="list-reset flex items-center justify-center space-x-1 font-bold">
             <li>
               <Link to="/" className="text-[#F7921E] hover:underline">HOME</Link>
             </li>
-            <li>/</li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F7921E" className="" viewBox="0 0 256 256">
+                <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z" stroke="#F7921E" strokeWidth="4"></path>
+              </svg>
+            </li>
             {page.breadcrumb.map((crumb, index) => (
               <React.Fragment key={index}>
                 {/* Breadcrumb link */}
