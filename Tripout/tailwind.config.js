@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ["Onest", "sans-serif"],
+      serif: ["Albert Sans", "serif"]
+    }
   },
   plugins: [],
 }
