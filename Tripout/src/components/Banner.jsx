@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = ({ page }) => {
   return (
-    <div className="relative bg-orange-50 w-full h-[350px] flex flex-col justify-center items-center px-6 md:px-10 xl:px-44">
+    <div className="relative w-full h-[350px] flex flex-col justify-center items-center px-6 md:px-10 xl:px-44">
       <img src="/banner.png" className=" object-cover w-full"/>
       <div className="absolute z-10 mt-10 left-1/2 -translate-x-1/2 ">
         <h2 className="text-5xl md:text-7xl font-semibold mb-4 font-serif">{page.title}</h2>
