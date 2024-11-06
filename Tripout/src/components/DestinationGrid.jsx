@@ -3,7 +3,7 @@ const DestinationGrid = () => {
     <div>
       <div className="flex flex-row gap-4 py-10 px-6 md:px-10 xl:px-44">
         <div className="w-9/12 h-[450px]">
-            <img className='cursor-pointer h-full w-full rounded-2xl object-cover object-left hover:object-center group-hover:brightness-90 transition-all duration-500 ease-in-out' src="https://media.istockphoto.com/id/1327346980/photo/view-of-diamond-beach-tropical-beach-in-bali.jpg?s=612x612&w=0&k=20&c=ntrPbctGWf7yDgYdvEPnzQ7u0aOW-hNblt7heX1ZFYU=" alt="" />
+            <img className='cursor-pointer h-full w-full rounded-2xl object-cover object-left hover:object-center hover:skew-x-1 hover:-skew-y-1 group-hover:brightness-90 transition-all duration-500 ease-in-out' src="https://media.istockphoto.com/id/1327346980/photo/view-of-diamond-beach-tropical-beach-in-bali.jpg?s=612x612&w=0&k=20&c=ntrPbctGWf7yDgYdvEPnzQ7u0aOW-hNblt7heX1ZFYU=" alt="" />
         </div>
         <div className="grid grid-cols-1 gap-4 w-1/3">
             <div>
