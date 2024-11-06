@@ -1,7 +1,8 @@
 
 import Header from '../components/Header';
 import Banner from '../components/Banner';
-
+import DestinationGrid from '../components/DestinationGrid';
+import DestinationIntro from '../components/DestinationIntro';
 import Footer from '../components/Footer';
 
 
@@ -20,7 +21,8 @@ const App = () => {
     <div>
       <Header />
       <Banner page={page} />
-      
+      <DestinationGrid />
+      <DestinationIntro />
       <Footer />
 
     </div>
