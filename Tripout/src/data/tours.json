@@ -6,7 +6,8 @@
         "location": "Bali, Indonesia",
         "duration": "5 days",
         "price": "$225",
-        "rating": "4.9"
+        "rating": "4.9",
+        "url": "/destinations/destination-detail"
         
     },
     {
@@ -16,7 +17,8 @@
         "location": "Rome, Italy",
         "duration": "10 days",
         "price": "$570",
-        "rating": "4.9"
+        "rating": "4.9",
+        "url": "/destinations/destination-detail"
     },
     {
         "image": "https://media.istockphoto.com/id/475124388/photo/white-church-in-oia-town-on-santorini-island-in-greece.jpg?s=612x612&w=0&k=20&c=_0Hy2MgqVTE2qCtyU8-0_zTZSnib7cCSmp2y2T9Mrw4=",
@@ -25,7 +27,8 @@
         "location": "Banff Town, Canada",
         "duration": "7 days",
         "price": "$355",
-        "rating": "4.9"
+        "rating": "4.9",
+        "url": "/destinations/destination-detail"
     },
     {
         "image": "https://media.istockphoto.com/id/1370346385/photo/amazing-mountain-ridge-view-from-the-mannlichen-station-grindelwald-switzerland.jpg?s=612x612&w=0&k=20&c=GUD6Lf3JeHR_u-2lxlyr665iig91ZsMJOqgAJR6WNn8=",
@@ -34,7 +37,8 @@
         "location": "Thailand, Asia",
         "duration": "15 days",
         "price": "$825",
-        "rating": "4.9"
+        "rating": "4.9",
+        "url": "/destinations/destination-detail"
     },
     {
         "image": "https://media.istockphoto.com/id/1436430810/photo/paris-eiffel-tower.jpg?s=612x612&w=0&k=20&c=twnPoKvqoTpraJNYTNrLBKASWjExRQMxoY9XPkHWJFQ=",
@@ -43,7 +47,8 @@
         "location": "Tanzania, East Africa",
         "duration": "8 days",
         "price": "$430",
-        "rating": "4.9"
+        "rating": "4.9",
+        "url": "/destinations/destination-detail"
     },
     {
         "image": "https://media.istockphoto.com/id/1327346980/photo/view-of-diamond-beach-tropical-beach-in-bali.jpg?s=612x612&w=0&k=20&c=ntrPbctGWf7yDgYdvEPnzQ7u0aOW-hNblt7heX1ZFYU=",
@@ -52,6 +57,7 @@
         "location": "Tokyo, Japan",
         "duration": "20 days",
         "price": "$995",
-        "rating": "4.9"
+        "rating": "4.9",
+        "url": "/destinations/destination-detail"
     }
 ]

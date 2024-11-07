@@ -30,7 +30,7 @@ const About = () => {
                             </div>
                             <div className='flex flex-col items-start justify-center'>
                                 <h3 className="text-lg text-gray-700 font-semibold">Inspiration</h3>
-                                <p className="text-sm text-gray-600"> Infact, I have proof; Does &ldquo;Lorem Ipsum&rdquo; ring a bell?</p>
+                                <p className="text-sm text-gray-600"> Infact, I have proof: Does &ldquo;Lorem Ipsum&rdquo; ring a bell?</p>
                             </div>
                         </div>
                     </div>
