@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Banner from '../components/Banner';
 import DestinationGrid from '../components/DestinationGrid';
 import DestinationIntro from '../components/DestinationIntro';
+import InfoCard from '../components/InfoCard';
+import Itinerary from '../components/Itinerary';
 import Footer from '../components/Footer';
 
 
@@ -22,7 +24,15 @@ const App = () => {
       <Header />
       <Banner page={page} />
       <DestinationGrid />
-      <DestinationIntro />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-6 md:px-10 xl:px-44">
+        <div>
+          <DestinationIntro />
+          <Itinerary />
+        </div>
+        <div>
+          <InfoCard />
+        </div>
+      </div>
       <Footer />
 
     </div>

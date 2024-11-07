@@ -6,7 +6,7 @@
         "location": "Bali, Indonesia",
         "duration": "5 days",
         "price": "$225",
-        "url": "/destination-detail",
+        "url": "/destinations/destination-detail",
         "rating": "4.9"
     },
     {
@@ -16,7 +16,7 @@
         "location": "Rome, Italy",
         "duration": "10 days",
         "price": "$570",
-        "url": "/destination-detail",
+        "url": "/destinations/destination-detail",
         "rating": "4.9"
     },
     {
@@ -26,7 +26,7 @@
         "location": "Banff Town, Canada",
         "duration": "7 days",
         "price": "$355",
-        "url": "/destination-detail",
+        "url": "/destinations/destination-detail",
         "rating": "4.9"
     },
     {
@@ -36,7 +36,7 @@
         "location": "Thailand, Asia",
         "duration": "15 days",
         "price": "$825",
-        "url": "/destination-detail",
+        "url": "/destinations/destination-detail",
         "rating": "4.9"
     },
     {
@@ -46,7 +46,7 @@
         "location": "Tanzania, East Africa",
         "duration": "8 days",
         "price": "$430",
-        "url": "/destination-detail",
+        "url": "/destinations/destination-detail",
         "rating": "4.9"
     },
     {
@@ -56,7 +56,7 @@
         "location": "Tokyo, Japan",
         "duration": "20 days",
         "price": "$995",
-        "url": "/destination-detail",
+        "url": "/destinations/destination-detail",
         "rating": "4.9"
     }
     ,
@@ -67,7 +67,7 @@
         "location": "Bali, Indonesia",
         "duration": "10 days",
         "price": "$320",
-        "url": "/destination-detail",
+        "url": "/destinations/destination-detail",
         "rating": "4.9"
     },
     {
@@ -77,7 +77,7 @@
         "location": "Paris, France",
         "duration": "5 days",
         "price": "$545",
-        "url": "/destination-detail",
+        "url": "/destinations/destination-detail",
         "rating": "4.9"
     },
     {
@@ -87,7 +87,7 @@
         "location": "Costa Rica, America",
         "duration": "9 days",
         "price": "$995",
-        "url": "/destination-detail",
+        "url": "/destinations/destination-detail",
         "rating": "4.9"
     }
 ]
