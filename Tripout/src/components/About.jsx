@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <div>
-            <section id="about" className="px-10 xl:px-44 py-20 flex flex-col lg:flex-row items-start lg:items-center justify-between bg-[#fff7f4]">
+            <section id="about" className="px-10 xl:px-36 py-20 flex flex-col lg:flex-row items-start lg:items-center justify-between bg-[#fff7f4]">
                 <div className="w-full lg:w-1/2 rounded-l-lg">
                     <img src="/about_ill.png" alt="image" className="w-11/12" loading='lazy'/>
                 </div>

@@ -22,7 +22,7 @@ function heartFill(index) {
 
 const Tours = () => {
     return (
-        <div className="px-10 xl:px-44 py-20 ">
+        <div className="px-10 xl:px-36 py-20 ">
             <div className="flex flex-col items-center justify-center gap-3">
                 <h4 className="font-medium text-[#F7921E] font-serif">Popular Tours</h4>
                 <h2 className="lg:text-5xl text-2xl font-bold font-serif">Top Tours You Can&apos;t Miss</h2>

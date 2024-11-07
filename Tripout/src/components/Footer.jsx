@@ -10,7 +10,7 @@ import Youtube from './Icons/Youtube';
 const App = () => {
   return (
     <div className="bg-[#24201D] py-4">
-      <footer className="font-sans px-10 xl:px-44 py-16 text-white">
+      <footer className="font-sans px-10 xl:px-36 py-16 text-white">
         <div className="flex flex-col md:flex-row gap-8 md:gap-0 items-start md:items-center justify-between">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-start gap-8">
             <div className="flex flex-row items-center justify-start gap-3">

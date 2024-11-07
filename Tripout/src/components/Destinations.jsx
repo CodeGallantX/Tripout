@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Destinations = () => {
     return (
         <div>
-            <section id="destinations" className="px-10 xl:px-44 py-20">
+            <section id="destinations" className="px-10 xl:px-36 py-20">
                 <div>
                     <h4 className="font-medium text-[#F7921E] font-serif md:mb-4 mb-3">Popular Destinations</h4>
                     <Link to="/destinations">

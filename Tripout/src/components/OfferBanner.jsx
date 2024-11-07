@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 const OfferBanner = () => {
   return (
     <div>
-        <section className='border-box flex flex-col sm:flex-row items-center justify-center px-10 xl:px-44 my-10 h-[600px] sm:h-[355px]'>
+        <section className='border-box flex flex-col sm:flex-row items-center justify-center px-10 xl:px-36 my-10 h-[600px] sm:h-[355px]'>
             <div className="w-full sm:w-1/2 h-1/2 sm:h-full">
                 <img src="/hot-air-balloons.jpg" alt="offer image" loading='lazy' className="object-cover object-center sm:object-top rounded-t-2xl sm:rounded-r-none sm:rounded-l-2xl h-full w-full"/>
             </div>

@@ -2,7 +2,7 @@
 const Digital = () => {
     return (
         <div>
-            <section className="px-10 xl:px-44 py-10">
+            <section className="px-10 xl:px-36 py-10">
                 <div className="relative flex px-6 sm:px-14 lg:px-16 py-8 rounded-2xl bg-[#24201D] md:flex-row flex-col items-center md:justify-between text-white">
                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col gap-4 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                         <h4 className="font-medium text-[#F7921E] font-serif">Digital Platform</h4>

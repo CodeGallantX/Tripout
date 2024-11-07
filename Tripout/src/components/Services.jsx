@@ -1,7 +1,7 @@
 const Services = () => {
     return (
         <div>
-            <section id="services" className="px-10 xl:px-44 py-20 flex lg:flex-row flex-col lg:items-center gap-4 justify-between items-start">
+            <section id="services" className="px-10 xl:px-36 py-20 flex lg:flex-row flex-col lg:items-center gap-4 justify-between items-start">
                 <div className="lg:w-1/2 w-full">
                     <img src="/services_ill.png" alt="Illustration Image" loading='lazy' className="-ml-3" />
                     {/* <img src="https://media.istockphoto.com/id/2015350686/photo/tourist-relaxedly-took-the-pose-of-a-flying-plane-before-traveling.jpg?s=612x612&w=0&k=20&c=ukBtwcgCwmJcGFDrzdpz5akIdZloWc4O2QYWHbz-Kmg=" alt="Illustration Image" className="-ml-3" /> */}

@@ -1,17 +1,17 @@
+
 import blogs from '../data/blogs.json';
 import { Link } from 'react-router-dom';
 
 const BlogList = () => {
     return (
-        <div className="px-10 xl:px-44 py-20 ">
+        <div className="px-10 xl:px-36 py-20 ">
 
             <div className="grid sm:grid-cols-2 grid-cols-1 md:grid-cols-1 gap-8 items-center justify-start mt-8">
                 {blogs.map((blog, index) => (
-                    <div key={index} className="w-full h-[280px] lg:h-[300px]">
-                    <div className="w-full h-[280px] lg:h-[300px]">
+                    <div key={index} className="group group-hover:blur-3xl w-full h-[280px] lg:h-[350px]">
                         <div className="group flex md:flex-row flex-col relative border-2 border-gray-200 border-opacity-60 rounded-2xl overflow-hidden hover:border-none hover:shadow-lg transition-all duration-200">
                             <a href={blog.url} className="w-3/4">
-                                <img className="h-full w-full object-cover object-center group-hover:scale-105 duration-700 ease-in-out" src={blog.image} alt={blog.title} loading='lazy' />
+                                <img className="h-full w-full object-cover object-center group-hover:scale-105 group-hover:blur-none duration-700 ease-in-out" src={blog.image} alt={blog.title} loading='lazy' />
                             </a>
                             <div className="p-8 w-full">
                                 <div className="flex flex-row gap-4">
@@ -45,7 +45,6 @@ const BlogList = () => {
 
                             </div>
                         </div>
-                    </div>
                     </div>
                 ))}
             </div>

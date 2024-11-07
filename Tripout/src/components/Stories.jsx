@@ -3,7 +3,7 @@ import stories from '../data/stories.json'
 const Stories = () => {
   return (
     <div>
-        <section id="stories" className="px-10 xl:px-44 py-20">
+        <section id="stories" className="px-10 xl:px-36 py-20">
             <div className="flex flex-col items-center justify-center gap-3">
                 <h4 className="font-medium text-[#F7921E] font-serif">Destination Story</h4>
                 <h2 className="lg:text-5xl text-2xl font-bold font-serif">Destination Stories to Inspire</h2>

@@ -2,7 +2,7 @@
 const Stats = () => {
     return (
         <div>
-            <section className="px-10 xl:px-44 py-10">
+            <section className="px-10 xl:px-36 py-10">
                 <div className="flex w-full px-10 md:px-8 lg:px-14 py-14 rounded-2xl bg-orange-50 flex-col justify-between gap-6">
                     <div className="flex flex-row gap-3 items-center justify-center">
                         <hr className="hidden md:block w-1/2 h-[1.5px] bg-gray-600 opacity-80"/>

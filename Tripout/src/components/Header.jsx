@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <div>
-            <header className="absolute w-full z-30 bg-transparent flex items-center justify-between px-6 md:px-10 xl:px-44 py-6">
+            <header className="absolute w-full z-30 bg-transparent flex items-center justify-between px-6 md:px-10 xl:px-36 py-6">
                 <Logo />
 
                 {/* Desktop Navigation */}

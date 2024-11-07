@@ -13,7 +13,7 @@ const Hero = () => {
             src="https://media.gettyimages.com/id/1308867983/photo/brecon-beacons-landscape.jpg?s=612x612&w=0&k=20&c=GsbYnKwpqpEMQ4FPtZG5DFGMAcoOVlPSd_R38RlXNNE="
           />
           <div className="absolute w-full h-full bg-black opacity-50 top-0 left-0"></div>
-          <div className="text-center lg:w-2/3 py-20 px-10 xl:px-20 w-full absolute">
+          <div className="text-center lg:w-2/3 py-20 px-10 xl:px-16 w-full absolute">
             <p className="mb-8 leading-relaxed">It&apos;s Time to Travel</p>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 font-bold font-serif">
               Embark on Your Ultimate Travel Adventure Today!

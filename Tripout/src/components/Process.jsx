@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 const Process = () => {
     return (
         <div>
-            <section className="px-10 xl:px-44 py-20 flex flex-col lg:flex-row items-start lg:items-center justify-center bg-[#fff7f4] ">
+            <section className="px-10 xl:px-36 py-20 flex flex-col lg:flex-row items-start lg:items-center justify-center bg-[#fff7f4] ">
                 <div className='w-full lg:w-1/3 flex flex-col items-start gap-4'>
                     <h4 className="font-medium text-[#F7921E] font-serif">Our Process</h4>
                     <h2 className="lg:text-5xl text-2xl font-bold font-serif">Simple Steps to Your Dream Adventure</h2>
