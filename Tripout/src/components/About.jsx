@@ -4,7 +4,7 @@ const About = () => {
         <div>
             <section id="about" className="px-10 xl:px-44 py-20 flex flex-col lg:flex-row items-start lg:items-center justify-between bg-[#fff7f4]">
                 <div className="w-full lg:w-1/2 rounded-l-lg">
-                    <img src="/about_ill.png" alt="image" className="w-11/12"/>
+                    <img src="/about_ill.png" alt="image" className="w-11/12" loading='lazy'/>
                 </div>
                 <div className="w-full lg:w-1/2 rounded-r-lg flex flex-col items-start justify-center gap-5">
                     <h4 className="font-medium text-[#F7921E] font-serif">About</h4>

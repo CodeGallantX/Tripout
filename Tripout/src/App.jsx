@@ -5,6 +5,7 @@ import Destinations from './pages/destinations';
 import DestinationDetail from './pages/destinationDetail';
 import Contact from './pages/contact';
 import Blog from './pages/blog';
+import BlogPost from './pages/post';
 import NotFound from './pages/404';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/destinations/destination-detail" element={<DestinationDetail />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/post" element={<BlogPost />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

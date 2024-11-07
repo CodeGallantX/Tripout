@@ -20,7 +20,7 @@ const Destinations = () => {
                 {destinations.map((destination, index) => (
                 <div key={index} className="p-4 pl-0 w-full">
                     <div className="relative group h-full rounded-2xl overflow-hidden cursor-pointer font-sans">
-                        <img className="md:h-80 h-64 w-full object-cover object-left group-hover:object-center group-hover:brightness-90 transition-all duration-500 ease-in-out" src={destination.url} alt="blog"/>
+                        <img className="md:h-80 h-64 w-full object-cover object-left group-hover:object-center group-hover:brightness-90 transition-all duration-500 ease-in-out" src={destination.url} loading='lazy' alt="blog"/>
                         <div className="absolute h-full md:h-auto md:bottom-0 -bottom-5 md:right-6 right-0 md:w-10/12 w-full mx-auto p-6 md:bg-orange-50 bg-black/50 mb-0 rounded-xl opacity-0 group-hover:opacity-100 group-hover:-translate-y-5 transition-all duration-500 delay-75 ease">
                             <div className='flex flex-col gap-3 md:items-start items-center justify-center md:translate-y-0 translate-y-20 transition-all duration-700 ease'>
                                 <h1 className="title-font md:text-2xl text-3xl font-bold md:text-gray-700 text-white font-serif">{destination.country}</h1>

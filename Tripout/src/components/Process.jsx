@@ -21,8 +21,8 @@ const Process = () => {
                     </Link>
                 </div>
                 <div className="w-full h-96 lg:w-1/3 ml-0 lg:ml-8">
-                    <img src="/process_ill.png" alt="image" className="w-11/12 h-full object-cover object-center rounded-b-2xl" />
-                    {/* <img src="https://media.istockphoto.com/id/1174712683/photo/smiling-african-american-hiker-walking-with-backpack-in-nature.jpg?s=612x612&w=0&k=20&c=SYAvBkvQeGOAutXBYcALcZgbxXm8yE7th_XDR0toPIM=" alt="image" className="w-11/12" /> */}
+                    <img src="/process_ill.png" alt="image" loading='lazy' className="w-11/12 h-full object-cover object-center rounded-b-2xl" />
+                    {/* <img src="https://media.istockphoto.com/id/1174712683/photo/smiling-african-american-hiker-walking-with-backpack-in-nature.jpg?s=612x612&w=0&k=20&c=SYAvBkvQeGOAutXBYcALcZgbxXm8yE7th_XDR0toPIM=" alt="image" loading='lazy' className="w-11/12" /> */}
                 </div>
                 <div className='w-full lg:w-1/3 flex flex-col items-start gap-8 lg:gap-4'>
                     <div className='flex flex-row items-center justify-start gap-3'>

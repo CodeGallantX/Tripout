@@ -31,7 +31,7 @@ const Digital = () => {
                         </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full translate-y-8 xl:translate-y-8 md:translate-y-0 lg:translate-y-0 static md:absolute xl:static bottom-0 right-0">
-                        <img className="object-cover object-center rounded w-full" alt="hero" src="/digital_ill.png" />
+                        <img className="object-cover object-center rounded w-full" alt="hero" loading='lazy' src="/digital_ill.png" />
                     </div>
                 </div>
             </section>

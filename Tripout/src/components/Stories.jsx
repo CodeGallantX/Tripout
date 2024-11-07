@@ -13,7 +13,7 @@ const Stories = () => {
                 {stories.map((story, index) => (
                 <div key={index} className="p-4 pl-0 w-full">
                     <div className="relative group h-full rounded-2xl overflow-hidden cursor-pointer font-sans">
-                        <img className="md:h-80 h-64 w-full object-cover object-left group-hover:scale-105 transition-all duration-500 ease-in-out" src={story.image} alt="blog"/>
+                        <img className="md:h-80 h-64 w-full object-cover object-left group-hover:scale-105 transition-all duration-500 ease-in-out" src={story.image} alt="blog" loading='lazy'/>
                         <div className="absolute h-full -bottom-5 right-0 w-full mx-auto p-6 bg-black/50 mb-0 rounded-xl opacity-0 group-hover:opacity-100 group-hover:-translate-y-5 transition-all duration-500 delay-75 ease">
                             <div className='flex flex-col gap-3 items-center justify-center translate-y-16 md:translate-y-20 transition-all duration-700 ease'>
                                 <a href={story.url} className="leading-relaxed p-2 bg-[#F7921E] rounded-full text-center">

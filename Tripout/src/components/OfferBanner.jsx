@@ -4,7 +4,7 @@ const OfferBanner = () => {
     <div>
         <section className='border-box flex flex-col sm:flex-row items-center justify-center px-10 xl:px-44 my-10 h-[600px] sm:h-[355px]'>
             <div className="w-full sm:w-1/2 h-1/2 sm:h-full">
-                <img src="/hot-air-balloons.jpg" alt="offer image" className="object-cover object-center sm:object-top rounded-t-2xl sm:rounded-r-none sm:rounded-l-2xl h-full w-full"/>
+                <img src="/hot-air-balloons.jpg" alt="offer image" loading='lazy' className="object-cover object-center sm:object-top rounded-t-2xl sm:rounded-r-none sm:rounded-l-2xl h-full w-full"/>
             </div>
             <div className="w-full sm:w-1/2 bg-[#24201D] text-white rounded-b-2xl sm:rounded-l-none sm:rounded-r-2xl flex flex-col items-start justify-center gap-5 p-8 h-full ">
                 <h4 className="font-medium text-[#F7921E] font-serif">Offer For You</h4>

@@ -39,7 +39,7 @@ const Tours = () => {
                     <div key={index} className="w-full ">
                         <div className="group relative h-full border-2 border-gray-200 border-opacity-60 rounded-2xl overflow-hidden hover:border-none hover:shadow-lg transition-all duration-200">
                             <a href="#">
-                                <img className="lg:h-56 md:h-36 w-full object-cover object-center group-hover:scale-105 duration-700 ease-in-out" src={tour.image} alt={tour.location} />
+                                <img className="lg:h-56 md:h-36 w-full object-cover object-center group-hover:scale-105 duration-700 ease-in-out" src={tour.image} alt={tour.location} loading='lazy' />
                             </a>
                             <span className="px-2 py-1 bg-orange-50 rounded-full absolute top-4 left-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" className="bi bi-star-fill fill-yellow-400 inline-block -translate-y-0.5" viewBox="0 0 16 16">

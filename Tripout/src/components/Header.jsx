@@ -62,10 +62,10 @@ const Header = () => {
                     </button>
                     <nav className="flex flex-col items-start px-6 pt-20 text-white space-y-6 text-lg">
                         <Link to="/" onClick={toggleSidebar}>Home</Link>
-                        <Link to="#about" onClick={toggleSidebar}>About Us</Link>
-                        <Link to="destinations" onClick={toggleSidebar}>Destinations</Link>
-                        <Link to="blog" onClick={toggleSidebar}>Blog</Link>
-                        <Link to="contact" onClick={toggleSidebar}>Contact Us</Link>
+                        <Link to="/about" onClick={toggleSidebar}>About Us</Link>
+                        <Link to="/destinations" onClick={toggleSidebar}>Destinations</Link>
+                        <Link to="/blog" onClick={toggleSidebar}>Blog</Link>
+                        <Link to="/contact" onClick={toggleSidebar}>Contact Us</Link>
                     </nav>
                 </div>
             </header>

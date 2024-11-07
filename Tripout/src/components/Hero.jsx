@@ -9,6 +9,7 @@ const Hero = () => {
           <img
             className="object-cover object-left w-full h-[105vh] md:h-screen"
             alt="hero"
+            loading='lazy'
             src="https://media.gettyimages.com/id/1308867983/photo/brecon-beacons-landscape.jpg?s=612x612&w=0&k=20&c=GsbYnKwpqpEMQ4FPtZG5DFGMAcoOVlPSd_R38RlXNNE="
           />
           <div className="absolute w-full h-full bg-black opacity-50 top-0 left-0"></div>
