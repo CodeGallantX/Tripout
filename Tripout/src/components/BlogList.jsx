@@ -1,4 +1,5 @@
 import blogs from '../data/blogs.json';
+import { Link } from 'react-router-dom';
 
 const BlogList = () => {
     return (
@@ -6,8 +7,9 @@ const BlogList = () => {
 
             <div className="grid sm:grid-cols-2 grid-cols-1 md:grid-cols-1 gap-8 items-center justify-start mt-8">
                 {blogs.map((blog, index) => (
-                    <div key={index} className="w-full">
-                        <div className="group h-[280px] flex md:flex-row flex-col relative border-2 border-gray-200 border-opacity-60 rounded-2xl overflow-hidden hover:border-none hover:shadow-lg transition-all duration-200">
+                    <div key={index} className="w-full h-[280px] lg:h-[300px]">
+                    <div className="w-full h-[280px] lg:h-[300px]">
+                        <div className="group flex md:flex-row flex-col relative border-2 border-gray-200 border-opacity-60 rounded-2xl overflow-hidden hover:border-none hover:shadow-lg transition-all duration-200">
                             <a href={blog.url} className="w-3/4">
                                 <img className="h-full w-full object-cover object-center group-hover:scale-105 duration-700 ease-in-out" src={blog.image} alt={blog.title} loading='lazy' />
                             </a>
@@ -25,14 +27,25 @@ const BlogList = () => {
                                     </p>
 
                                 </div>
-                                <h1 className="font-serif text-xl font-semibold text-gray-900 mb-4">{blog.title}</h1>
+                                <h1 className="font-sans text-xl md:text-2xl font-bold text-gray-900 mb-4">{blog.title}</h1>
                                 <p className="leading-relaxed mb-3 text-sm text-gray-500">{blog.intro}
                                 </p>
-                                <hr className='w-full mt-4'/>
-                                
+                                <hr className='w-full mt-8' />
+
+                                <Link to="/blog/post">
+                                    <button className="text-sm font-bold text-[#F7921E] my-4 font-serif">
+                                        READ MORE&nbsp;
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="inline-block -translate-y-0.5" viewBox="0 0 256 256">
+                                            <path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z" stroke="#F7921E" strokeWidth="10">
+                                            </path>
+                                        </svg>
+
+                                    </button>
+                                </Link>
 
                             </div>
                         </div>
+                    </div>
                     </div>
                 ))}
             </div>
