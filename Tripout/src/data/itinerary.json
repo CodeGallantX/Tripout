@@ -1,0 +1,27 @@
+[
+    {
+        "day": "Day 1",
+        "location": "Airport Pickup & Arrival",
+        "description": "Arrive at the airport and transfer to the hotel. Evening free to explore the local area."
+    },
+    {
+        "day": "Day 2",
+        "location": "Temples & River Cruise",
+        "description": "A day full of adventure activities such as hiking and river rafting."
+    },
+    {
+        "day": "Day 3",
+        "location": "Local Market Visits",
+        "description": "Arrive at the market and shop till you're satisfied."
+    },
+    {
+        "day": "Day 4",
+        "location": "Adventure Activities",
+        "description": "A day full of adventure activities such as hiking and river rafting."
+    },
+    {
+        "day": "Day 5",
+        "location": "Airport Pickup & Arrival",
+        "description": "Hotel to Airport & Departure"
+    }
+]

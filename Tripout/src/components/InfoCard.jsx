@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 const InfoCard = () => {
     return (
         <div>
-            <div className="border border-gray-500 rounded-xl w-full px-5 py-4">
+            <div className="border border-gray-500 rounded-lg w-full lg:w-3/5 px-5 py-4 ml-auto my-8">
                 <div className="flex flex-row items-center justify-start mb-4">
                     <span className="text-gray-8 font-semibold mr-1 inline-flex items-center leading-none text-sm">
                         Starts from

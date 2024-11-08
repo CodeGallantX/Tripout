@@ -1,8 +1,6 @@
-import React from "react";
-
 const BlogFilter = () => {
   return (
-    <div className="max-w-xl w-full mx-auto p-4 bg-white shadow-lg rounded-lg mt-6">
+    <div className="max-w-xl hidden lg:block w-full mx-auto p-4 bg-white shadow-lg rounded-lg mt-6">
       <form action="" method="get" className="flex flex-col gap-6">
         {/* Search Input */}
         <div>
