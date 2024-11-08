@@ -1,9 +1,9 @@
-import Header from "./Header";
+import HeaderHome from "./HeaderHome";
 
 const Hero = () => {
   return (
     <div>
-      <Header />
+      <HeaderHome />
       <section className="font-sans bg-gray-50 text-white min-h-screen">
         <div className="relative flex items-center justify-center flex-col">
           <img

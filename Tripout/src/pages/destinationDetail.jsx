@@ -1,10 +1,10 @@
-
 import Header from '../components/Header';
 import Banner from '../components/Banner';
 import DestinationGrid from '../components/DestinationGrid';
 import DestinationIntro from '../components/DestinationIntro';
 import InfoCard from '../components/InfoCard';
 import Itinerary from '../components/Itinerary';
+import TourMap from '../components/TourMap';
 import Footer from '../components/Footer';
 
 
@@ -28,6 +28,7 @@ const App = () => {
         <div className="col-span-2">
           <DestinationIntro />
           <Itinerary />
+          <TourMap />
         </div>
         <div>
           <InfoCard />

@@ -11,7 +11,7 @@ const Header = () => {
     };
 
     // Function to check if the current route is the same as the link's route
-    const isActiveLink = (path) => location.pathname === path ? 'text-[#F7921E]' : 'text-gray-700';
+    const isActiveLink = (path) => location.pathname === path ? 'text-[#F7921E]' : 'text-white';
 
     return (
         <div>
@@ -28,9 +28,9 @@ const Header = () => {
                 </nav>
 
                 <div className="hidden lg:flex items-center gap-3">
-                    <button className="rounded-full p-3 border-2 border-gray-800 border-opacity-40 text-black">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" className="bi bi-search fill-gray-800" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    <button className="rounded-full p-3 border-2 border-white border-opacity-40 text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#fff" className="bi bi-search fill-white" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" stroke="#fff"/>
                         </svg>
                     </button>
                     <Link to="#" className="rounded-full bg-[#F7921E] text-white px-6 py-3 text-sm font-medium">
@@ -60,7 +60,7 @@ const Header = () => {
                         } transition-transform delay-200 duration-300 ease-in-out`}
                 >
                     <button onClick={toggleSidebar} className="absolute top-2 right-2 text-white p-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" className="fill-white" viewBox="0 0 256 256">
                             <path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
                         </svg>
                     </button>

@@ -26,13 +26,13 @@ const Itinerary = () => {
         <div className="relative border-l-2 border-dotted border-orange-300 ">
           {itinerary.map((item, index) => (
             <div key={index} className="mb-10 ml-8">
-              <div className="absolute -left-1.5 flex items-center justify-center">
+              <div className="absolute -left-2 flex items-center justify-center">
                 {item.day === "Day 1" ? (
-                  <div className="relative -left-3 rounded-full p-2 bg-orange-500 border border-orange-500">{takeoffIcon()}</div>
+                  <div onClick={toggleInfo} className="relative -left-3 rounded-full p-2 bg-orange-500 border border-orange-500">{takeoffIcon()}</div>
                 ) : item.day === "Day 5" ? (
-                  <div className="relative -left-3 rounded-full p-2 bg-orange-500 border border-orange-500">{landingIcon()}</div>
+                  <div onClick={toggleInfo} className="relative -left-3 rounded-full p-2 bg-orange-500 border border-orange-500">{landingIcon()}</div>
                 ) : (
-                  <div className="w-3 h-3 bg-orange-500 rounded-full border border-orange-500" />
+                  <div onClick={toggleInfo} className="w-4 h-4 bg-white rounded-full border border-orange-500" />
                 )}
               </div>
 
