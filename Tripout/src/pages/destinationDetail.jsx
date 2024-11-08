@@ -29,9 +29,9 @@ const App = () => {
           <DestinationIntro />
           <Itinerary />
         </div>
-        {/* <div> */}
+        <div>
           <InfoCard />
-        {/* </div> */}
+        </div>
       </div>
       <Footer />
 
