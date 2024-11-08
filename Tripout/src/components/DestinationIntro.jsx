@@ -4,7 +4,7 @@ import InfoBadges from './InfoBadges';
 const DestinationIntro = () => {
     return (
         <div>
-            <div className="w-full">
+            <div className="w-full cols-span-2">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif">Tropical Beach: Bali Beach Escape</h1>
                 <MiniComps />
                 <div className="text-sm text-gray-600 font-medium py-6">
