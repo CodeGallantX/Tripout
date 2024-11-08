@@ -24,8 +24,8 @@ const App = () => {
       <Header />
       <Banner page={page} />
       <DestinationGrid />
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-6 md:px-10 xl:px-36">
-        <div>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-20 px-6 md:px-10 xl:px-36">
+        <div className="col-span-2">
           <DestinationIntro />
           <Itinerary />
         </div>
