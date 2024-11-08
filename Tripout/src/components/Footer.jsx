@@ -1,4 +1,4 @@
-import Logo from './Logo';
+import Logo from './LogoLight';
 import footerData from './../data/footer.json'
 import Email from './Icons/Email';
 import Facebook from './Icons/Facebook';
