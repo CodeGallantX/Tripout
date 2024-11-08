@@ -31,7 +31,7 @@ const App = () => {
               </div>
               <div className="text-white flex flex-col items-start justify-center gap-2">
                 <h5 className=" font-bold">Call Us Now!</h5>
-                <a href="tel" className="text-sm">(555) 123-4567, (555) 987-6543</a>
+                <a href="tel:" className="text-sm">(555) 123-4567, (555) 987-6543</a>
               </div>
             </div>
             <div className="flex flex-row items-center justify-start gap-3">
