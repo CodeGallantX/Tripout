@@ -57,7 +57,7 @@ const Itinerary = () => {
 
               <p
                 id="description"
-                className={`text-gray-500 text-sm w-2/3 mt-1.5 transition-all duration-300 ${
+                className={`text-gray-500 text-sm w-11/12 md:w-2/3 mt-2 transition-all duration-300 ${
                   activeIndex === index ? 'block' : 'hidden'
                 }`}
               >
