@@ -1,11 +1,9 @@
 import itinerary from '../data/itinerary.json';
-
-function toggleInfo(event) {
-  const info = event.currentTarget.nextElementSibling;
-  info.classList.toggle('hidden');
-}
+import { useState } from 'react';
 
 const Itinerary = () => {
+  // Initialize activeIndex to 0 to make the first itinerary item active by default
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const takeoffIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" viewBox="0 0 256 256">
@@ -23,23 +21,48 @@ const Itinerary = () => {
     <div className="py-6 max-w-4xl mx-auto">
       <h3 className="text-2xl font-bold font-serif text-left mb-8">Destination Itinerary</h3>
       <div className="pl-4">
-        <div className="relative border-l-2 border-dotted border-orange-300 ">
+        <div className="relative border-l-2 border-dotted border-orange-300">
           {itinerary.map((item, index) => (
             <div key={index} className="mb-10 ml-8">
               <div className="absolute -left-2 flex items-center justify-center">
                 {item.day === "Day 1" ? (
-                  <div onClick={toggleInfo} className="relative -left-3 rounded-full p-2 bg-orange-500 border border-orange-500">{takeoffIcon()}</div>
+                  <div
+                    onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+                    className={`relative -left-3 rounded-full p-2 bg-orange-500 border border-orange-500 cursor-pointer`}
+                  >
+                    {takeoffIcon()}
+                  </div>
                 ) : item.day === "Day 5" ? (
-                  <div onClick={toggleInfo} className="relative -left-3 rounded-full p-2 bg-orange-500 border border-orange-500">{landingIcon()}</div>
+                  <div
+                    onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+                    className={`relative -left-3 rounded-full p-2 bg-orange-500 border border-orange-500 cursor-pointer`}
+                  >
+                    {landingIcon()}
+                  </div>
                 ) : (
-                  <div onClick={toggleInfo} className="w-4 h-4 bg-white rounded-full border border-orange-500" />
+                  <div
+                    onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+                    className="w-4 h-4 bg-white rounded-full border border-orange-500 cursor-pointer"
+                  />
                 )}
               </div>
 
-              <h4 onClick={toggleInfo} className="text-lg font-semibold text-gray-800 cursor-pointer">
+              <h4
+                onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+                className={`text-lg font-semibold text-gray-800 cursor-pointer ${
+                  activeIndex === index ? 'text-orange-500' : ''
+                }`}
+              >
                 {item.day}: {item.location}
               </h4>
-              <p id="description" className="text-gray-500 text-sm hidden w-full lg:w-2/3 mt-1.5">
+
+              {/* Show description only if the item is active */}
+              <p
+                id="description"
+                className={`text-gray-500 text-sm w-2/3 mt-1.5 transition-all duration-300 ${
+                  activeIndex === index ? 'block' : 'hidden'
+                }`}
+              >
                 {item.description}
               </p>
             </div>

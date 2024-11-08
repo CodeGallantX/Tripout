@@ -5,6 +5,7 @@ import DestinationIntro from '../components/DestinationIntro';
 import InfoCard from '../components/InfoCard';
 import Itinerary from '../components/Itinerary';
 import TourMap from '../components/TourMap';
+import Faq from '../components/Faq';
 import Footer from '../components/Footer';
 
 
@@ -29,6 +30,7 @@ const App = () => {
           <DestinationIntro />
           <Itinerary />
           <TourMap />
+          <Faq />
         </div>
         <div>
           <InfoCard />
