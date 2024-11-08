@@ -4,20 +4,16 @@
         "answer": "Pack according to the weather, activities, and culture of your destination. Essentials include clothing, toiletries, a power bank, and any required documents."
     },
     {
-        "question": "Are there any travel restrictions I should know about?",
-        "answer": "Please check the latest travel advisories for your destination. Restrictions may vary based on health protocols, visa requirements, and political situations."
+        "question": "What types of accommodations are available?",
+        "answer": "We offer a variety of accommodations including hotels, hostels, guesthouses, and vacation rentals. You can choose based on your preferences and budget."
     },
     {
-        "question": "How do I change or cancel my booking?",
-        "answer": "You can modify or cancel your booking through our website or by contacting customer support. Be aware of any cancellation policies that may apply."
+        "question": "What documents do I need to travel?",
+        "answer": "You'll need a valid passport, visa (if applicable), travel insurance, and any additional documents like vaccinations or permits depending on your destination."
     },
     {
         "question": "Is travel insurance recommended?",
         "answer": "Yes, travel insurance is recommended to cover unexpected events like medical emergencies, trip cancellations, or lost baggage during your trip."
-    },
-    {
-        "question": "Can I bring my pet on the trip?",
-        "answer": "Bringing a pet depends on the airline and country you are visiting. Ensure you check the travel requirements for pets, including vaccination records and permits."
     },
     {
         "question": "What currency is used at my destination?",

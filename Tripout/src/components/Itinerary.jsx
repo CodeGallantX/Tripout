@@ -2,7 +2,6 @@ import itinerary from '../data/itinerary.json';
 import { useState } from 'react';
 
 const Itinerary = () => {
-  // Initialize activeIndex to 0 to make the first itinerary item active by default
   const [activeIndex, setActiveIndex] = useState(0);
 
   const takeoffIcon = () => (
@@ -56,7 +55,6 @@ const Itinerary = () => {
                 {item.day}: {item.location}
               </h4>
 
-              {/* Show description only if the item is active */}
               <p
                 id="description"
                 className={`text-gray-500 text-sm w-2/3 mt-1.5 transition-all duration-300 ${

@@ -2,7 +2,6 @@ import { useState } from 'react';
 import faqs from '../data/faqs.json';
 
 const Faq = () => {
-    // Set initial activeIndex to 0 to make the first FAQ question active
     const [activeIndex, setActiveIndex] = useState(0);
 
     const toggleFaq = (index) => {
