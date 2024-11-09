@@ -1,0 +1,23 @@
+[
+    {
+        "image": "",
+        "name": "Sarah Johnson",
+        "date": "Sep 20, 2024",
+        "rating": "5.0",
+        "review": "My trip was absolutely unforgettable! The itinerary was perfectly planned, the accommodations were luxurious, and the guides were incredibly knowledgeable. I highly recommend this travel agency for amazing experiences!"
+    },
+    {
+        "image": "",
+        "name": "Michael Roberts",
+        "date": "Oct 16, 2024",
+        "rating": "5.0",
+        "review": "I had a fantastic journey with this travel company! Every detail was taken care of, and the customer service was exceptional. I can't wait to book my next adventure with them!"
+    },
+    {
+        "image": "",
+        "name": "Emily Davis",
+        "date": "Nov 3, 2024",
+        "rating": "5.0",
+        "review": "The tour exceeded my expectations in every way! Beautiful destinations, comfortable lodging, and the friendly staff made this trip enjoyable. I'll definitely be recommending this travel service to all my friends and family!"
+    }
+]

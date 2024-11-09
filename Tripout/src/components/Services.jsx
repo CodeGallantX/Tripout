@@ -7,7 +7,9 @@ const Services = () => {
                     {/* <img src="https://media.istockphoto.com/id/2015350686/photo/tourist-relaxedly-took-the-pose-of-a-flying-plane-before-traveling.jpg?s=612x612&w=0&k=20&c=ukBtwcgCwmJcGFDrzdpz5akIdZloWc4O2QYWHbz-Kmg=" alt="Illustration Image" className="-ml-3" /> */}
                 </div>
                 <div className="lg:w-1/2 w-full rounded-r-lg flex flex-col items-start justify-center gap-7">
-                    <h4 className="font-medium text-[#F7921E] font-serif">What We Provide</h4>
+                    <h4 className="font-bold text-[#F7921E] font-serif">
+                        <img src="/airplane.png" alt="icon" className="inline-block translate-y-0.5" />
+                        &nbsp;What We Provide</h4>
                     <h2 className="lg:text-5xl text-2xl font-bold font-serif">Exceptional Services for Your Travel Experience</h2>
                     <div className='flex flex-col md:flex-row gap-4'>
                         <div className='flex flex-col items-start justify-center gap-4'>

@@ -6,6 +6,7 @@ import InfoCard from '../components/InfoCard';
 import Itinerary from '../components/Itinerary';
 import TourMap from '../components/TourMap';
 import Faq from '../components/Faq';
+import Reviews from '../components/Reviews';
 import Footer from '../components/Footer';
 
 
@@ -31,6 +32,7 @@ const App = () => {
           <Itinerary />
           <TourMap />
           <Faq />
+          <Reviews />
         </div>
         <div>
           <InfoCard />

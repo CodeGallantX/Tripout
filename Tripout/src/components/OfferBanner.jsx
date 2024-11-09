@@ -7,7 +7,9 @@ const OfferBanner = () => {
                 <img src="/hot-air-balloons.jpg" alt="offer image" loading='lazy' className="object-cover object-center sm:object-top rounded-t-2xl sm:rounded-r-none sm:rounded-l-2xl h-full w-full"/>
             </div>
             <div className="w-full sm:w-1/2 bg-[#24201D] text-white rounded-b-2xl sm:rounded-l-none sm:rounded-r-2xl flex flex-col items-start justify-center gap-5 p-8 h-full ">
-                <h4 className="font-medium text-[#F7921E] font-serif">Offer For You</h4>
+                <h4 className="font-bold text-[#F7921E] font-serif">
+                <img src="/airplane.png" alt="icon" className="inline-block translate-y-0.5"/>
+                &nbsp;Offer For You</h4>
                 <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-3xl font-bold font-serif">Discover Incredible <br /> Deals Just For You</h2>
                 <Link to="#" className="mt-4  rounded-full bg-[#F7921E] text-white px-6 py-3 sm:px-7 sm:py-4 text-sm font-medium">
                     <button>

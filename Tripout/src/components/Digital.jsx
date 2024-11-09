@@ -5,7 +5,9 @@ const Digital = () => {
             <section className="px-10 xl:px-36 py-10">
                 <div className="relative flex px-6 sm:px-14 lg:px-16 py-8 rounded-2xl bg-[#24201D] md:flex-row flex-col items-center md:justify-between text-white">
                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col gap-4 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h4 className="font-medium text-[#F7921E] font-serif">Digital Platform</h4>
+                        <h4 className="font-bold text-[#F7921E] font-serif">
+                            <img src="/airplane.png" alt="icon" className="inline-block translate-y-0.5"/>
+                        &nbsp;Digital Platform</h4>
                         <h2 className="lg:text-4xl text-2xl font-bold font-serif">App Only Discounts <br/> Travel More for Less!</h2>
                         <p className="text-sm text-white w-11/12 lg:w-5/12 xl:w-10/12">Unlock exclusive discounts on travel by booking through our app today! Save more on flights, hotels, and adventures!</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:flex xl:flex-row lg:flex-col xl:items-center items-center lg:items-start justify-center gap-4">

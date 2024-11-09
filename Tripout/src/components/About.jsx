@@ -7,7 +7,9 @@ const About = () => {
                     <img src="/about_ill.png" alt="image" className="w-11/12" loading='lazy'/>
                 </div>
                 <div className="w-full lg:w-1/2 rounded-r-lg flex flex-col items-start justify-center gap-5">
-                    <h4 className="font-medium text-[#F7921E] font-serif">About</h4>
+                    <h4 className="font-bold text-[#F7921E] font-serif">
+                        <img src="/airplane.png" alt="icon" className="inline-block translate-y-0.5"/>
+                        &nbsp;About</h4>
                     <h2 className="lg:text-5xl text-2xl font-bold font-serif">Your Journey Begins Here <br /> Explore With Us</h2>
                     <p className="text-sm text-gray-600">Just a bunch of rubbish and meaningless text used by developers to fill empty text spaces. We call them placeholders; they hold places for the real thing, so that the particular section lacking real text will not look unseemly.</p>
                     <div className='flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-28'>

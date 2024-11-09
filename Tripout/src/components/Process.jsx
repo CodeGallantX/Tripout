@@ -4,7 +4,9 @@ const Process = () => {
         <div>
             <section className="px-10 xl:px-36 py-20 flex flex-col lg:flex-row items-start lg:items-center justify-center bg-[#fff7f4] ">
                 <div className='w-full lg:w-1/3 flex flex-col items-start gap-4'>
-                    <h4 className="font-medium text-[#F7921E] font-serif">Our Process</h4>
+                    <h4 className="font-bold text-[#F7921E] font-serif">
+                        <img src="/airplane.png" alt="icon" className="inline-block translate-y-0.5" />
+                        &nbsp;Our Process</h4>
                     <h2 className="lg:text-5xl text-2xl font-bold font-serif">Simple Steps to Your Dream Adventure</h2>
                     <p className="text-sm text-gray-600">We simplify travel planning, guiding you from inspiration to booking with ease. Your adventure awaits!</p>
 

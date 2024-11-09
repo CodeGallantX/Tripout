@@ -6,7 +6,9 @@ const Destinations = () => {
         <div>
             <section id="destinations" className="px-10 xl:px-36 py-20">
                 <div>
-                    <h4 className="font-medium text-[#F7921E] font-serif md:mb-4 mb-3">Popular Destinations</h4>
+                    <h4 className="font-bold text-[#F7921E] font-serif md:mb-4 mb-3">
+                    <img src="/airplane.png" alt="icon" className="inline-block translate-y-0.5"/>
+                    &nbsp;Popular Destinations</h4>
                     <Link to="/destinations">
                         <button className="text-sm font-medium text-[#F7921E] mb-0 -mt-7 bg-[#FDE9D1] hover:bg-orange-200 rounded-full md:px-6 px-5 md:py-4 py-3 font-serif float-right">
                             SEE MORE
