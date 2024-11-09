@@ -1,13 +1,13 @@
 [
     {
-        "image": "",
-        "name": "Sarah Johnson",
+        "image": "https://media.istockphoto.com/id/2135911536/photo/profile-view-of-a-retired-asian-hiker-at-muriwai-beach.jpg?s=612x612&w=0&k=20&c=sogSTPGKfe1szb2EpUtnwde2dAWOJawR9GLd7xGgXCI=",
+        "name": "Jim Deric",
         "date": "Sep 20, 2024",
         "rating": "5.0",
         "review": "My trip was absolutely unforgettable! The itinerary was perfectly planned, the accommodations were luxurious, and the guides were incredibly knowledgeable. I highly recommend this travel agency for amazing experiences!"
     },
     {
-        "image": "",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
         "name": "Michael Roberts",
         "date": "Oct 16, 2024",
         "rating": "5.0",
