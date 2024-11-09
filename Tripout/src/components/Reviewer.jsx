@@ -7,7 +7,7 @@ const Reviewer = () => {
                 {reviews.map((review, index) => (
                     <div key={index} className="p-4 pl-0 w-full">
                         <div className="flex flex-row items-start justify-start h-full rounded-2xl overflow-hidden ">
-                            <img className="w-full object-cover rounded-full" src={review.image} loading='lazy' alt="image" />
+                            <img className="w-20 h-20 object-cover rounded-full" src={review.image} loading='lazy' alt="image" />
                             <div>
                                 <h3>{review.name}</h3>
                                 <p className="leading-relaxed text-sm text-gray-500 ml-auto">
